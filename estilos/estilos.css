@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color: white;
+    margin: auto;
+    
+}
+
+header {
+    background-color: black;
+    height: 100px;
+}
+
+.div1 {
+    float: left;
+}
+
+.imagen1 {
+    width: 100px;
+    height: 100px;
+}
