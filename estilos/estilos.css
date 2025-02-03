@@ -80,3 +80,14 @@ nav ul ul li a {
     padding: 10px 20px; 
     color: white;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+main {
+    margin-bottom: 150px;
+    position: ;
+    margin-top: 250px;
+}
