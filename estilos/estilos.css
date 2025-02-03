@@ -1,20 +1,82 @@
-h1 {
+header h1 {
     text-align: center;
     color: white;
-    margin: auto;
-    
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Agency FB';
+    font-size: 35pt;
+
 }
 
 header {
     background-color: black;
-    height: 100px;
+    height: 150px;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
 }
 
 .div1 {
     float: left;
+    position: absolute;
 }
 
 .imagen1 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 20pt; 
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+    border-top: solid; 
+    border-color: white; 
+    border-width: 2px;
+    position: absolute;
+    margin-top: 150px;
+    width: 97.4%;
+}
+
+nav ul { 
+    padding: 0; 
+    list-style: none; 
+}
+
+nav ul li { 
+    float: left ; 
+    position:  relative; 
+    margin-top: -33px;
+}
+
+nav ul li a { 
+    display: block; 
+    padding: 10px 20px; 
+    color: white; 
+    text-decoration: none; 
+}
+
+nav ul li:hover > ul { 
+    display: block;
+}
+
+nav ul ul { 
+    display: none; 
+    position: absolute;
+    background-color: black; 
+}
+
+nav ul ul li { 
+    margin-top: 15px;
+}
+
+nav ul ul li a { 
+    padding: 10px 20px; 
+    color: white;
 }
