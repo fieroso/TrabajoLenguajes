@@ -22,6 +22,9 @@ header {
     position: fixed;
     z-index: 100000;
     width: 100%;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: white;
 }
 
 .div1 {
@@ -42,7 +45,7 @@ nav {
     text-align: center;
     border-top: solid; 
     border-color: white; 
-    border-width: 2px;
+    border-width: 3px;
     position: absolute;
     margin-top: 150px;
     width: 97.4%;
@@ -91,7 +94,7 @@ nav ul ul li a {
     background-color: #f4f4f4;
     padding: 0;
     position: absolute;
-    top: 250px;
+    top: 251px;
     bottom: 75px;
     height: 346.9vh;
 }
@@ -104,13 +107,14 @@ nav ul ul li a {
     right: 0;
 }
 
-main {
+.mainindex {
     position: absolute;
-    margin-top: 250px; 
-    margin-left: 15.35%; 
+    margin-top: 251px;
+    margin-left: 15.35%;
     margin-right: 15.18%; 
     padding-bottom: 75px;
     background-color: black;
+
 }
 
 footer {
@@ -122,8 +126,9 @@ footer {
     color: white;
     text-align: center;
     z-index: 1000;
-
-    
+    border-top: solid;
+    border-width: 3px;
+    border-color: white;
 }
 
 .iframe1 {
@@ -256,7 +261,7 @@ tr:last-child td:first-child {
 }
 
 .imagenes1 {
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease-in;
     z-index: 100;
 }
 
@@ -264,7 +269,7 @@ tr:last-child td:first-child {
     position: absolute;
     color: white;
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease-in;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 500%;
 }
@@ -292,4 +297,127 @@ tr:last-child td:first-child {
 
 .divimagenes:hover .texto {
     opacity: 1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+.mainalta {
+    position: absolute;
+    top: 153px;
+    background-color: black;
+    width: 100%;
+    height: 150%;
+}
+
+.divalta1 {
+    padding-top: 5%;
+    max-width: 300px;
+    margin: auto;
+}
+
+.reycr {
+    width: 100%;
+}
+
+.divreycr {
+    clear: left;
+    float: left;
+    padding-left: 5%;
+    padding-top: 150px;
+    width: 21%;
+}
+
+.stubs {
+    width: 100%;
+    padding-top: 110px;
+}
+
+.divstubs {
+    float:right;
+    width: 23%;
+    margin-right: 30px;
+}
+
+.imagenSID {
+    animation: entradaImagen 1.5s ease-in-out;
+}
+
+@keyframes entradaImagen {
+    0% {
+        transform: scale(0.5) rotate(-10deg);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.divformulario {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 26.5px;
+    border-radius: 10px;
+    text-align: center;
+    height: 900px;
+    margin-top: 50px;
+}
+
+form {
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+select {
+    width: 103.5%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.botones {
+    margin-top: 20px;
+    margin-left: 3.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: gray;
 }
