@@ -1,9 +1,7 @@
-
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
     position: relative;
 }
 
@@ -14,7 +12,8 @@ header h1 {
     margin-right: auto;
     margin-left: auto;
     font-family: 'Agency FB';
-    font-size: 35pt;
+    font-size: 300%;
+    padding-top: 15px;
 }
 
 header {
@@ -87,38 +86,210 @@ nav ul ul li a {
     color: white;
 }
 
-.publicidad {
-    width: 13%;
+.divpublicidad {
+    width: 15%;
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 0;
     position: absolute;
     top: 250px;
-    bottom: 50px; 
+    bottom: 75px;
+    height: 346.9vh;
 }
 
-.izquierda {
-    left: 0;
+.pizquierda {
+    left: 3px;
 }
 
-.derecha {
+.pderecha {
     right: 0;
 }
 
 main {
     position: absolute;
     margin-top: 250px; 
-    margin-left: 300px; 
-    margin-right: 300px; 
-    padding-bottom: 100px; 
+    margin-left: 15.35%; 
+    margin-right: 15.18%; 
+    padding-bottom: 75px;
+    background-color: black;
 }
 
 footer {
     position: fixed;
     bottom: 0;
-    height: 50px;
+    height: 75px;
     width: 100%;
     background-color: black;
     color: white;
     text-align: center;
     z-index: 1000;
+
+    
+}
+
+.iframe1 {
+    width: 100%;
+    height: 100%; 
+    border: none;
+}
+
+footer div { 
+    display: flex;
+    width: 50%;
+    margin-left: 32%;
+}
+
+.footer-imagen {
+    height: 100px;
+    padding-left: 25px;
+}
+
+footer h2 {
+    margin-top: 27px;
+}
+
+.divCRCOC {
+    width: 48%;
+    float: left;
+    padding-left: 1.3%;
+    padding-top: 1.3%;
+}
+
+.divBSSB {
+    width: 48%;
+    float: right;
+    padding-right: 1.3%;
+    padding-top: 1.3%;
+}
+
+main div h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Agency FB';
+    font-size: 30pt;
+}
+
+.divjuegos {
+    padding-top: 17px;
+}
+
+.divhorario {
+    padding-top: 15px;
+}
+
+.divvideos{
+    padding-top: 1000px;
+}
+.divtabla {
+    width: 90%;
+    margin: 40px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+tr {
+    height: 90px;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+th {
+    background-color: slategray;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:hover {
+    background-color: gainsboro;
+    transition: 0.3s;
+}
+
+th:first-child {
+    visibility: hidden;
+    border: none;
+}
+
+th:nth-child(2), tr:first-child td:first-child{ 
+    border-top-left-radius: 10px; 
+}
+
+th:nth-child(8) { 
+    border-top-right-radius: 10px; 
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.video1 {
+    width: 97.4%;
+    height: 800px;
+    padding-left: 1.3%;
+}
+
+.video2 {
+    width: 97.4%;
+    height: 800px;
+    padding-left: 1.3%;
+    padding-top: 1.15%;
+}
+
+.divimagenes {
+    position: relative;
+}
+
+.imagenes1 {
+    transition: opacity 0.5s ease;
+    z-index: 100;
+}
+
+.texto {
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 500%;
+}
+
+.textoCR {
+    margin-top: 80px;
+    padding-left: 17.5%;
+}
+.textoBS {
+    margin-top: 85px;
+    margin-left: 67.5%;
+}
+.textoCOC {
+    margin-top: 535px;
+    padding-left: 18%;
+    text-align: center;
+}
+.textoSB {
+    margin-top: 575px;
+    margin-left: 66%;
+}
+.divimagenes:hover .imagenes1 {
+    opacity: 0;
+}
+
+.divimagenes:hover .texto {
+    opacity: 1;
 }
