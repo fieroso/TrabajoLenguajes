@@ -1,3 +1,13 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+
 header h1 {
     text-align: center;
     color: white;
@@ -5,7 +15,6 @@ header h1 {
     margin-left: auto;
     font-family: 'Agency FB';
     font-size: 35pt;
-
 }
 
 header {
@@ -26,10 +35,6 @@ header {
     height: 150px;
 }
 
-body {
-    margin: 0;
-}
-
 nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-size: 20pt; 
@@ -42,6 +47,7 @@ nav {
     position: absolute;
     margin-top: 150px;
     width: 97.4%;
+    z-index: 1000;
 }
 
 nav ul { 
@@ -81,13 +87,38 @@ nav ul ul li a {
     color: white;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
+.publicidad {
+    width: 13%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: absolute;
+    top: 250px;
+    bottom: 50px; 
+}
+
+.izquierda {
+    left: 0;
+}
+
+.derecha {
+    right: 0;
 }
 
 main {
-    margin-bottom: 150px;
-    position: ;
-    margin-top: 250px;
+    position: absolute;
+    margin-top: 250px; 
+    margin-left: 300px; 
+    margin-right: 300px; 
+    padding-bottom: 100px; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 1000;
 }
