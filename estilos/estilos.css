@@ -143,7 +143,7 @@ footer div {
     margin-left: 32%;
 }
 
-.footer-imagen {
+.imagenfooter {
     height: 100px;
     padding-left: 25px;
 }
@@ -420,4 +420,133 @@ button {
 
 button:hover {
     background-color: gray;
+}
+
+.mainnoticias {
+    position: absolute;
+    top: 153px;
+    background-color: black;
+    width: 100%;
+    height: 290%;
+}
+
+main div h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Agency FB';
+    font-size: 50pt;
+}
+
+.make {
+    width: 20%;
+    padding-left: 40%;
+}
+
+.store {
+    width: 45%;
+    padding-left: 30%;
+}
+
+.divizquierdaanuncios {
+    position: fixed;
+    left: 0;
+    width: 49.9%;
+    border-right: solid;
+    border-color: white;
+    border-width: 3px;
+    height: 100vh;
+}
+
+.divderechanoticias {
+    position: absolute;
+    right: 0;
+    width: 49.9%;
+}
+
+h4 {
+    color: white;
+    font-family: 'Agency FB';
+    font-size: 20pt;
+    padding-left: 5%;
+    text-shadow: 1px 2px slategray; 
+}
+
+.pfecha {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+    padding-left: 5%;
+    margin-top: -12px;
+}
+
+.imagenesactualizaciones {
+    width: 90%;
+    margin-left: 5%;
+    border: solid;
+    border-color: white;
+}
+
+.divizquierdaactualizaciones {
+    width: 60%;
+    float: left;
+}
+
+.divderechaactualizaciones {
+    width: 38%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 15px;
+}
+
+h5 {
+    color: white;
+    font-family: 'Agency FB';
+    font-size: 20pt;
+    padding-left: 2%;
+}
+
+.textoexplicacion {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13pt;
+    padding-left: 2%;
+}
+
+.divindividual1 {
+    height: 275px;
+}
+
+.divindividuales {
+    height: 275px;
+    margin-top: 171px;
+}
+
+.imageninicio {
+    width: 40%;
+}
+
+.animaciontamano {
+    font-size: 30pt;
+    transition: font-size 0.3s ease;
+  }
+  
+  .animaciontamano:hover {
+    font-size: 45pt;
+  }
+
+.animaciontamanoimagen1 {
+    transition: padding-left 1s ease;
+}
+  
+  .animaciontamanoimagen1:hover {
+    width: 35%;
+    padding-left: 30%;
+}
+.animaciontamanoimagen2 {
+    transition: padding-left 1s ease;
+}
+  
+  .animaciontamanoimagen2:hover {
+    width: 60%;
+    padding-left: 20%;
 }
